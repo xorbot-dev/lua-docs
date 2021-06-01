@@ -1,8 +1,14 @@
-### post
+# network
+
+## post
+
 ```lua
 network.post( url: string, post_data: table, timeout: number ): string
 ```
-### get
+
+## get
+
 ```lua
 network.get( url: string, timeout: number ): string
 ```
+

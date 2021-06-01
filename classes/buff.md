@@ -1,39 +1,50 @@
-### get_name
+# buff
+
+## get\_name
+
 ```lua
 buff:get_name( ): string
 ```
 
-### get_amount
+## get\_amount
+
 ```lua
 buff:get_amount( ): number
 ```
 
-### is_hard_cc
+## is\_hard\_cc
+
 ```lua
 buff:is_hard_cc( ): bool
 ```
 
-### is_slow
+## is\_slow
+
 ```lua
 buff:is_slow( ): bool
 ```
 
-### is_knock_up
+## is\_knock\_up
+
 ```lua
 buff:is_knock_up( ): bool
 ```
 
-### is_invincible
+## is\_invincible
+
 ```lua
 buff:is_invincible( ): bool
 ```
 
-### get_duration
+## get\_duration
+
 ```lua
 buff:get_duration( ): number
 ```
 
-### get_alt_amount
+## get\_alt\_amount
+
 ```lua
 buff:get_alt_amount( ): number
 ```
+

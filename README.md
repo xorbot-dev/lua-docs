@@ -1,3 +1,5 @@
+# getting started
+
 ## Registering a callback
 
 ```lua
@@ -11,7 +13,8 @@ end )
 
 ## Available callbacks
 
-- `draw`– this gets called every frame
-- `features` – this gets called in the features loop before the actual features call
-- `pre_orbwalker` - this gets called before orbwalker
-- `post_orbwalker` - this gets called after orbwalker
+* `draw`– this gets called every frame
+* `features` – this gets called in the features loop before the actual features call
+* `pre_orbwalker` - this gets called before orbwalker
+* `post_orbwalker` - this gets called after orbwalker
+

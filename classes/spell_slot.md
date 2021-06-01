@@ -1,34 +1,38 @@
-### is_valid
+# spell\_slot
+
+## is\_valid
 
 ```lua
 spell_slot:is_valid( ): bool
 ```
 
-### get_level
+## get\_level
 
 ```lua
 spell_slot:get_level( ): number
 ```
 
-### get_cooldown_expire
+## get\_cooldown\_expire
 
 ```lua
 spell_slot:get_cooldown_expire( ): number
 ```
 
-### get_cooldown
+## get\_cooldown
 
 ```lua
 spell_slot:get_cooldown( ): number
 ```
 
-### is_ready
+## is\_ready
 
 ```lua
 spell_slot:is_ready( ): bool
 ```
 
-### get_name
+## get\_name
+
 ```lua
 spell_slot:get_name( ): string
 ```
+

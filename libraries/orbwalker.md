@@ -1,4 +1,6 @@
-### ignore_target
+# orbwalker
+
+## ignore\_target
 
 ```lua
 orbwalker.ignore_target( index: number ): void
@@ -6,7 +8,7 @@ orbwalker.ignore_target( index: number ): void
 
 Needs to be called from `features` callback. Ignores a target for 1 cheat tick.
 
-### force_target
+## force\_target
 
 ```lua
 orbwalker.force_target( index: number ): void
@@ -14,44 +16,45 @@ orbwalker.force_target( index: number ): void
 
 Needs to be called from `features` callback. Forces a target for 1 cheat tick.
 
-### get_target
+## get\_target
 
 ```lua
 orbwalker.get_target( ): number | nil
 ```
 
-### is_active
+## is\_active
 
 ```lua
 orbwalker.is_active( ): bool
 ```
 
-### can_reset_aa
+## can\_reset\_aa
 
 ```lua
 orbwalker.can_reset_aa( ): bool
 ```
 
-### reset_aa
+## reset\_aa
 
 ```lua
 orbwalker.reset_aa( ): void
 ```
 
-### get_last_attack_time
+## get\_last\_attack\_time
 
 ```lua
 orbwalker.get_last_attack_time( ): number
 ```
 
-### get_windup_duration
+## get\_windup\_duration
 
 ```lua
 orbwalker.get_windup_duration( ): number
 ```
 
-### get_next_attack_time
+## get\_next\_attack\_time
 
 ```lua
 orbwalker.get_next_attack_time( ): number
 ```
+

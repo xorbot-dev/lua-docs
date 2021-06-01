@@ -1,209 +1,212 @@
+# object
+
 ## constructors
 
-- `object:new( index )`
+* `object:new( index )`
 
 ## functions
 
-### get_health
+### get\_health
 
 ```lua
 object:get_health( ): number
 ```
 
-### get_index
+### get\_index
 
 ```lua
 object:get_index( ): number
 ```
 
-### get_position
+### get\_position
 
 ```lua
 object:get_position( ): vec3
 ```
 
-### is_alive
+### is\_alive
 
 ```lua
 object:is_alive( ): bool
 ```
 
-### is_valid
+### is\_valid
 
 ```lua
 object:is_valid( ): bool
 ```
 
-### is_local
+### is\_local
 
 ```lua
 object:is_local( ): bool
 ```
 
-### get_attack_damage
+### get\_attack\_damage
 
 ```lua
 object:get_attack_damage( ): number
 ```
 
-### get_screen_position
+### get\_screen\_position
 
 ```lua
 object:get_screen_position( ): vec2 | nil
 ```
 
-### is_enemy
+### is\_enemy
 
 ```lua
 object:is_enemy( ): bool
 ```
 
-### get_spell_book
+### get\_spell\_book
 
 ```lua
 object:get_spell_book( ): spell_book
 ```
 
-### get_predicted_position
+### get\_predicted\_position
 
-```
+```text
 object:get_predicted_position( projectile_speed, projectile_range, projectile_width, cast_time ): vec3
 ```
 
-### get_name
+### get\_name
 
 ```lua
 object:get_name( ): string
 ```
 
-### get_current_gold
+### get\_current\_gold
 
 ```lua
 object:get_current_gold( ): number
 ```
 
-### get_max_health
+### get\_max\_health
 
 ```lua
 object:get_max_health( ): number
 ```
 
-### is_teammate
+### is\_teammate
 
 ```lua
 object:is_teammate( ): bool
 ```
 
-### get_armor
+### get\_armor
 
 ```lua
 object:get_armor( ): number
 ```
 
-### get_bonus_armor
+### get\_bonus\_armor
 
 ```lua
 object:get_bonus_armor( ): number
 ```
 
-### get_crit_chance
+### get\_crit\_chance
 
 ```lua
 object:get_crit_chance( ): number
 ```
 
-### get_level
+### get\_level
 
 ```lua
 object:get_level( ): number
 ```
 
-### get_level_points
+### get\_level\_points
 
 ```lua
 object:get_level_points( ): number
 ```
 
-### get_attack_speed
+### get\_attack\_speed
 
 ```lua
-object:get_attack_speed( ): number 
+object:get_attack_speed( ): number
 ```
 
-### get_attack_range
+### get\_attack\_range
 
 ```lua
 object:get_attack_range( ): number
 ```
 
-### get_health_regen
+### get\_health\_regen
 
 ```lua
 object:get_health_regen( ): number
 ```
 
-### get_movement_speed
+### get\_movement\_speed
 
 ```lua
 object:get_movement_speed( ): number
 ```
 
-### get_max_gold
+### get\_max\_gold
 
 ```lua
 object:get_max_gold( ): number
 ```
 
-### is_recalling
+### is\_recalling
 
 ```lua
 object:is_recalling( ): bool
 ```
 
-### get_buff_manager
+### get\_buff\_manager
 
 ```lua
 object:get_buff_manager( ): buff_manager
 ```
 
-### get_champ_name
+### get\_champ\_name
 
 ```lua
 object:get_champ_name( ): string
 ```
 
-### get_mana
+### get\_mana
 
 ```lua
 object:get_mana( ): number
 ```
 
-### get_max_mana
+### get\_max\_mana
 
 ```lua
 object:get_max_mana( ): number
 ```
 
-### get_ability_power
+### get\_ability\_power
 
 ```lua
 object:get_ability_power( ): number
 ```
 
-### get_bonus_attack_damage
+### get\_bonus\_attack\_damage
 
 ```lua
 object:get_bonus_attack_damage( ): number
 ```
 
-### get_base_attack_damage
+### get\_base\_attack\_damage
 
 ```lua
 object:get_base_attack_damage( ): number
 ```
 
-### get_magic_resist
+### get\_magic\_resist
 
 ```lua
 object:get_magic_resist( ): number
 ```
+

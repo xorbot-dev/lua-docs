@@ -1,71 +1,74 @@
-### get_start_position
+# spell
+
+## get\_start\_position
 
 ```lua
 spell:get_start_position( ): vec3
 ```
 
-### get_end_position
+## get\_end\_position
 
 ```lua
 spell:get_end_position( ): vec3
 ```
 
-### get_current_position
+## get\_current\_position
 
 ```lua
 spell:get_current_position( ): vec3
 ```
 
-### get_speed
+## get\_speed
 
 ```lua
 spell:get_speed( ): number
 ```
 
-### get_range
+## get\_range
 
 ```lua
 spell:get_range( ): number
 ```
 
-### get_radius
+## get\_radius
 
 ```lua
 spell:get_radius( ): number
 ```
 
-### get_danger
+## get\_danger
 
 ```lua
 spell:get_danger( ): number
 ```
 
-### get_delay
+## get\_delay
 
 ```lua
 spell:get_delay( ): number
 ```
 
-### get_start_time
+## get\_start\_time
 
 ```lua
 spell:get_start_time( ): number
 ```
 
-### get_end_time
+## get\_end\_time
 
 ```lua
 spell:get_end_time( ): number
 ```
 
-### get_cast_time
+## get\_cast\_time
 
 ```lua
 spell:get_cast_time( ): number
 ```
 
-### get_spell_type
+## get\_spell\_type
 
 ```lua
 spell:get_spell_type( ): string
 ```
+

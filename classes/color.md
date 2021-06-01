@@ -1,12 +1,15 @@
-### constructors
+# color
 
-- `color:new( )`
-- `color:new( r, g, b )`
-- `color:new( r, g, b, a )`
+## constructors
 
-### member variables
+* `color:new( )`
+* `color:new( r, g, b )`
+* `color:new( r, g, b, a )`
 
-- `r`
-- `g`
-- `b`
-- `a`
+## member variables
+
+* `r`
+* `g`
+* `b`
+* `a`
+

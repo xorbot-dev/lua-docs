@@ -1,25 +1,28 @@
+# evade
+
 only works when evade is turned on
 
-### is_position_safe
+## is\_position\_safe
 
 ```lua
 evade.is_position_safe( position: vec3 ): bool
 ```
 
-### get_safe_position
+## get\_safe\_position
 
 ```lua
 evade.get_safe_position( ): vec3
 ```
 
-### is_evading
+## is\_evading
 
 ```lua
 evade.is_evading( ): bool
 ```
 
-### get_active_spells
+## get\_active\_spells
 
 ```lua
 evade.get_active_spells( ): list<spell>
 ```
+

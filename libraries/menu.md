@@ -1,4 +1,6 @@
-### checkbox
+# menu
+
+## checkbox
 
 ```lua
 menu.checkbox( label: string, default_value: bool ): menu_item
@@ -12,7 +14,7 @@ local checkbox = menu.checkbox( "enable" )
 print( checkbox:get_value( ) )
 ```
 
-### label
+## label
 
 ```lua
 menu.label( label: string ): menu_item
@@ -20,7 +22,7 @@ menu.label( label: string ): menu_item
 
 The `get_value( )` function does not work on menu labels.
 
-### slider_int
+## slider\_int
 
 ```lua
 menu.slider_int( label: string, min: number, max: number, default_value: number ): menu_item
@@ -33,7 +35,7 @@ local slider = menu.slider_int( "slider", 0, 5 )
 print( slider:get_value( ) )
 ```
 
-### slider_float
+## slider\_float
 
 ```lua
 menu.slider_float( label: string, min: number, max: number, default_value: number ): menu_item
@@ -46,7 +48,7 @@ local slider = menu.slider_float( "slider", 0, 1 )
 print( slider:get_value( ) )
 ```
 
-### dropdown
+## dropdown
 
 ```lua
 menu.dropdown( label: string, options: table<string> ): menu_item
@@ -60,17 +62,21 @@ local dropdown = menu.dropdown( "mode", { "first", "second", "third" } )
 print( dropdown:get_value( ) )
 ```
 
-### text_input
+## text\_input
+
 ```lua
 menu.text_input( label: string ): menu_item
 ```
 
-### help_marker
+## help\_marker
+
 ```lua
 menu.help_marker( label: string ): menu_item
 ```
 
-### keybind
+## keybind
+
 ```lua
 menu.keybind( label: string ): menu_item
 ```
+
