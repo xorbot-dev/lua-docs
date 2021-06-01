@@ -1,4 +1,4 @@
-# get\_user
+# xorbot
 
 ```lua
 xorbot.get_user( ): number
