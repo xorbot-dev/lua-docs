@@ -1,17 +1,24 @@
 # evade
 
-only works when evade is turned on
+These functions only work when evade is active.
 
 ## is\_position\_safe
 
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| position | vec3 | + |
+| bounding\_radius | number | - |
+
 ```lua
-evade.is_position_safe( position: vec3 ): bool
+evade.is_position_safe( position: vec3, bounding_radius: number = 65 ): bool
 ```
 
 ## get\_safe\_position
 
 ```lua
-evade.get_safe_position( ): vec3
+evade.get_safe_position( ): vec3 | nil
 ```
 
 ## is\_evading
