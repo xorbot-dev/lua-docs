@@ -2,6 +2,12 @@
 
 ## world\_to\_screen
 
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| position | vec3 | + |
+
 ```lua
 xmath.world_to_screen( position: vec3 ): vec2 | nil
 ```

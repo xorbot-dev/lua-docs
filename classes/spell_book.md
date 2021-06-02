@@ -2,6 +2,12 @@
 
 ## get\_spell\_slot
 
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| slot | spell\_slot\_t | + |
+
 ```lua
 spell_book:get_spell_slot( slot: spell_slot_t ): spell_slot | nil
 ```
@@ -55,6 +61,12 @@ spell_book:get_cast_index( ): number
 ```
 
 ## get\_spell\_slot\_by\_name
+
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| name | string | + |
 
 ```lua
 spell_book:get_spell_slot_by_name( name: string ): spell_slot | nil

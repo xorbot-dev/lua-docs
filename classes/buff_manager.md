@@ -2,6 +2,12 @@
 
 ## has\_buff
 
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| name | string | + |
+
 ```lua
 buff_manager:has_buff( name: string ): bool
 ```

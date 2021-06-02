@@ -23,6 +23,12 @@ print( checkbox:get_value( ) )
 
 ## label
 
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| label | string | + |
+
 ```lua
 menu.label( label: string ): menu_item
 ```
