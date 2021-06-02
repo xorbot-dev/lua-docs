@@ -2,13 +2,20 @@
 
 ## send\_attack
 
-
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| position | vec3 | + |
 
 ```lua
 input.send_attack( position: vec3 ): void
 ```
 
 ## send\_spell
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| slot | spell\_slot\_t | + |
+| position | vec3 | - |
 
 ```lua
 input.send_spell( slot: spell_slot_t, position: vec3 | nil ): void

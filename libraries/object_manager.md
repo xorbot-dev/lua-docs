@@ -65,6 +65,12 @@ object_manager.get_max_objects( ): number
 
 ## get\_by\_flag
 
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| flag | object\_t | + |
+
 ```lua
 object_manager.get_by_flag( flag: object_t ): table<object>
 ```

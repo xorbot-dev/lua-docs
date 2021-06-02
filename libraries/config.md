@@ -2,8 +2,6 @@
 
 ## dump\_vars
 
-Logs the list of all config vars of the script.
-
 ```lua
 -- prints all config vars to lua debug console
 config.dump_vars( ): void
@@ -12,7 +10,7 @@ config.dump_vars( ): void
 ## get\_value
 
 ```lua
-config.get_value( name: string ): number | bool | color | nil
+config.get_value( name: string ): number | bool | color
 ```
 
 ## set\_value
