@@ -20,7 +20,7 @@
   * [spell\_slot](classes/spell_slot.md)
   * [buff](classes/buff.md)
   * [color](classes/color.md)
-  * [get\_value](classes/menu_item.md)
+  * [menu\_item](classes/menu_item.md)
   * [buff\_manager](classes/buff_manager.md)
   * [spell\_book](classes/spell_book.md)
   * [object](classes/object.md)
