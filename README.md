@@ -11,10 +11,20 @@ register_callback( "draw", function( )
 end )
 ```
 
-## Available callbacks
+### Available callbacks
 
 * `draw`– this gets called every frame
 * `features` – this gets called in the features loop before the actual features call
 * `pre_orbwalker` - this gets called before orbwalker
 * `post_orbwalker` - this gets called after orbwalker
+* `target_switch` - called on orbwalker target switch
+
+## Print
+
+```lua
+print( ... )
+
+-- usage example
+print( "local: {}", object_manager.get_local( ) )
+```
 
