@@ -3,7 +3,7 @@
 ## ignore\_target
 
 ```lua
-orbwalker.ignore_target( index: number ): void
+orbwalker.ignore_target( target_index: number ): void
 ```
 
 Needs to be called from `features` callback. Ignores a target for 1 cheat tick.
@@ -11,7 +11,7 @@ Needs to be called from `features` callback. Ignores a target for 1 cheat tick.
 ## force\_target
 
 ```lua
-orbwalker.force_target( index: number ): void
+orbwalker.force_target( target_index: number ): void
 ```
 
 Needs to be called from `features` callback. Forces a target for 1 cheat tick.
@@ -56,5 +56,11 @@ orbwalker.get_windup_duration( ): number
 
 ```lua
 orbwalker.get_next_attack_time( ): number
+```
+
+## set\_should\_attack
+
+```lua
+orbwalker.set_should_attack( should_attack: bool ): void
 ```
 
