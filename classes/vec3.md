@@ -24,3 +24,9 @@ vec3:length( ): number
 vec3:length2d( ): number
 ```
 
+## to\_screen
+
+```lua
+vec3:to_screen( ): vec2 | nil
+```
+
