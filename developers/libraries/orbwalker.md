@@ -1,10 +1,12 @@
 # orbwalker
 
 {% hint style="info" %}
-Orbwalker functions can only be called from `features` and `pre_orbwalker` [callbacks](../../#available-callbacks).
+Orbwalker functions can only be called from`features`and`pre_orbwalker`[callbacks](../../#available-callbacks) ****unless stated differently.
 {% endhint %}
 
 ## ignore\_target
+
+Ignores a target for 1 cheat tick.
 
 ### Parameters:
 
@@ -16,9 +18,9 @@ Orbwalker functions can only be called from `features` and `pre_orbwalker` [call
 orbwalker.ignore_target( target_index: number ): void
 ```
 
-Needs to be called from `features` callback. Ignores a target for 1 cheat tick.
-
 ## force\_target
+
+Forces a target for 1 cheat tick.
 
 ### Parameters:
 
@@ -30,9 +32,9 @@ Needs to be called from `features` callback. Ignores a target for 1 cheat tick.
 orbwalker.force_target( target_index: number ): void
 ```
 
-Needs to be called from `features` callback. Forces a target for 1 cheat tick.
-
 ## get\_target
+
+Can be called from all callbacks.
 
 ```lua
 orbwalker.get_target( ): number | nil
@@ -40,11 +42,15 @@ orbwalker.get_target( ): number | nil
 
 ## is\_active
 
+Can be called from all callbacks.
+
 ```lua
 orbwalker.is_active( ): bool
 ```
 
 ## can\_reset\_aa
+
+Can be called from all callbacks.
 
 ```lua
 orbwalker.can_reset_aa( ): bool
@@ -58,11 +64,15 @@ orbwalker.reset_aa( ): void
 
 ## get\_last\_attack\_time
 
+Can be called from all callbacks.
+
 ```lua
 orbwalker.get_last_attack_time( ): number
 ```
 
 ## get\_windup\_duration
+
+Can be called from all callbacks.
 
 ```lua
 orbwalker.get_windup_duration( ): number
@@ -70,13 +80,15 @@ orbwalker.get_windup_duration( ): number
 
 ## get\_next\_attack\_time
 
+Can be called from all callbacks.
+
 ```lua
 orbwalker.get_next_attack_time( ): number
 ```
 
 ## set\_should\_attack
 
-Parameter:
+### Parameters:
 
 | Name | Type | Required |
 | :--- | :--- | :--- |
