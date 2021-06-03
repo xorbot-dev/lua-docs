@@ -2,7 +2,7 @@
 
 ## get\_user
 
-Get users forum user-id.
+Get users forum id.
 
 ```lua
 xorbot.get_user( ): number
@@ -23,6 +23,8 @@ xorbot.open_link( url: string ): void
 ```
 
 ## is\_private
+
+Check if the script is the private version or not.
 
 ```lua
 xorbot.is_private( ): bool

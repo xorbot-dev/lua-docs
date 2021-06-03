@@ -33,7 +33,9 @@ print( checkbox:get_value( ) )
 menu.label( label: string ): menu_item
 ```
 
-The `get_value( )` function does not work on menu labels.
+{% hint style="warning" %}
+The`get_value( )`function does not work on menu labels.
+{% endhint %}
 
 ## slider\_int
 
@@ -113,6 +115,12 @@ menu.text_input( label: string ): menu_item
 ```
 
 ## help\_marker
+
+### Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| lable | string | + |
 
 ```lua
 menu.help_marker( label: string ): menu_item
