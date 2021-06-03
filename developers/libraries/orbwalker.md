@@ -98,3 +98,21 @@ orbwalker.get_next_attack_time( ): number
 orbwalker.set_should_attack( should_attack: bool ): void
 ```
 
+## get\_ignored\_targets
+
+```lua
+orbwalker.get_ignored_targets( ): table<number>
+```
+
+## get\_forced\_target
+
+```lua
+orbwalker.get_forced_target( ): number | nil
+```
+
+## is\_targeting\_champion
+
+```lua
+orbwalker.is_targeting_champion( ): bool
+```
+

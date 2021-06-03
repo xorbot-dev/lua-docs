@@ -1,5 +1,7 @@
 # menu
 
+For `menu_item`class docs, please follow this [link](../classes/menu_item.md).
+
 ## checkbox
 
 ### Parameters:

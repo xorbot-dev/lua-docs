@@ -25,6 +25,9 @@ end )
 * `pre_orbwalker` - this gets called before orbwalker
 * `post_orbwalker` - this gets called after orbwalker
 * `target_switch` - called on orbwalker target switch
+* `send_auto_attack` - called when orbwalker sends an auto-attack
+
+ 
 
 ## Print
 
