@@ -33,5 +33,6 @@ print( ... )
 
 -- usage example
 print( "local: {}", object_manager.get_local( ) )
+print( "Formatting a {} and {}", "string", 5 )
 ```
 
