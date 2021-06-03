@@ -1,4 +1,4 @@
-# getting started
+# Getting started
 
 ## Registering a callback
 
