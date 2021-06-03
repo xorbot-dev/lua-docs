@@ -1,6 +1,8 @@
 # evade
 
+{% hint style="info" %}
 These functions only work when evade is active.
+{% endhint %}
 
 ## is\_position\_safe
 

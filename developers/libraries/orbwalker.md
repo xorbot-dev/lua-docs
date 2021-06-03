@@ -1,5 +1,9 @@
 # orbwalker
 
+{% hint style="info" %}
+Orbwalker functions can only be called from `features` and `pre_orbwalker` [callbacks](../../).
+{% endhint %}
+
 ## ignore\_target
 
 ### Parameters:
