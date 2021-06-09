@@ -30,3 +30,9 @@ Check if the script is the private version or not.
 xorbot.is_private( ): bool
 ```
 
+## get\_username
+
+```text
+xorbot.get_username( ): string
+```
+
