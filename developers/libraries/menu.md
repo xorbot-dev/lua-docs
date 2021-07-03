@@ -140,3 +140,16 @@ menu.help_marker( label: string ): menu_item
 menu.keybind( label: string ): menu_item
 ```
 
+## find
+
+Parameters:
+
+| Name | Type | Required |
+| :--- | :--- | :--- |
+| tab | string | + |
+| name | string | + |
+
+```lua
+menu.find( tab: string, name: string ): config_item
+```
+
